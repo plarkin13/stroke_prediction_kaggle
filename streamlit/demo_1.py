@@ -5,12 +5,12 @@ import matplotlib.pyplot as plt
 
 #add page config
 st.set_page_config(
-    page_icon='📖',
+    page_icon='🏥',
     initial_sidebar_state='expanded'
 )
 
 # add title
-st.title('Do you write more like Poe or Austen?')
+st.title('Are you prone to a stroke?')
 
 #add description
 st.write('Select which page you want to view')
@@ -22,9 +22,9 @@ page = st.sidebar.selectbox('Page', ('About', 'EDA', 'Make a Prediction'))
 
 @st.cache
 
-def load_data():
-    df = pd.read_csv('data/austen_poe.csv')
-    return df
+#def load_data():
+#    df = pd.read_csv('data/austen_poe.csv')
+#    return df
 
 @st.cache
 def load_vectorized_data():
@@ -52,18 +52,18 @@ elif page == 'EDA':
     st.pyplot(fig)
 
 elif page == 'Make a Prediction':
-    st.subheader('Which author do you write like?')
-    st.write('Enter your text to generate a prediction')
+    st.subheader('Are you likely to have a stroke?')
+    st.write('Enter your information to determine how likely you are to have a stroke')
 
     #load in model
-    with open('models/mnb_pipe.pkl', 'rb') as pickle_in:
-        pipe = pickle.load(pickle_in)
+    with open('../models/draft1.pkl', 'rb') as pickle_in:
+        model = pickle.load(pickle_in)
     
-    your_text = st.text_input(label = 'Enter your text here')
+    your_text = st.text_input(label = 'Enter your information here')
     value = 'Quoth the raven, nevermore',
     max_chars = 1000
 
-    predicted_author = pipe.predict([your_text])[0]
+    predicted_author = model.predict([your_text])[0]
 
     st.subheader('Results:')
     st.write(f'You write most like: {predicted_author}')
