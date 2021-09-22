@@ -8,7 +8,7 @@ There are many known risk factors of strokes, as indictaced in the below image.(
 Some of these factors are within a person's ability to change or at the very least be cognizant of the effects to monitor their risk for stroke. 
 
 ## Problem Statement
-*Can patients with an affinity to having a stroke, be identified with a high degree of accuracy and sensitivity?*
+***Can patients with an affinity to having a stroke, be identified with a high degree of accuracy and sensitivity?***
 As health data from smartphones, smartwatches, and even tech-friendly primary care facilities continues to accumulate, there is a real opportunity to identify those future at risk stroke victims. Prevention is possible and through this project we hope to aid in that pursuit. 
 - Provide patients with targeted preventative measures
 - Monitor patients predicted as high risk. Potentially integrate this monitoring into smart-wearables.
