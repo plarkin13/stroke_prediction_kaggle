@@ -53,7 +53,7 @@ Quite a few decent models resulted from testing.
 - Extremely Randomized Trees (ExtraTrees)
 - Random Forest Classifier
 
-![Risk Factors of Stroke](./images/Screen Shot 2021-09-21 at 9.00.45 PM.png) 
+![model comparison](./images/model_comparison.jpeg) 
 
 **Best Model:**
 Decision Tree: Recall of 85%, Accuracy of 65%. Slightly overfit but performed best on recall. Top features included: Age (weight = 0.92), BMI, and Hypertension. All other features were ignored by the model.
