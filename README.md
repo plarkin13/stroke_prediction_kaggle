@@ -4,7 +4,7 @@ According to the World Health Organization (WHO) stroke is the 2nd leading cause
 Clearly a glaring health issue that humans currently face. What exactly is a stroke? It is a blood clot that blocks the flow of blood and oxygen to the brain. When the brain does not receive blood it can result in death, but not every time. For stroke survivors, while escaping death they may still live with complications (from the loss of blood to the brain) such as memory loss, speech impairment, eating disabilities, and/or loss of normal bodily functions  ([source](https://www.hopkinsmedicine.org/health/conditions-and-diseases/stroke/effects-of-stroke)).
 
 There are many known risk factors of strokes, as indictaced in the below image.
-![the-risk-factors-of-stroke.jpeg](attachment:the-risk-factors-of-stroke.jpeg) ([source](https://www.yashodahospitals.com/blog/brain-stroke-and-treatments-symptoms-causes-treatment/))
+![Risk Factors of Stroke](./images/the-risk-factors-of-stroke.jpeg) ([source](https://www.yashodahospitals.com/blog/brain-stroke-and-treatments-symptoms-causes-treatment/))
 Some of these factors are within a person's ability to change or at the very least be cognizant of the effects to monitor their risk for stroke. 
 
 ## Problem Statement
