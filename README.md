@@ -1,7 +1,7 @@
 # Are you prone to a stroke?
 
-According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. It is the #1 leading cause of death in America ([source](https://www.cdc.gov/stroke/index.htm#:~:text=Stroke%20is%20a%20leading%20cause,of%20serious%20disability%20for%20adults.&text=About%20795%2C000%20people%20in%20the%20United%20States%20have%20a%20stroke%20each%20year.&text=Get%20more%20quick%20facts%20about,Stroke%20is%20preventable))
-Clearly a glaring health issue that humans currently face. What exactly is a stroke? It is a blood clot that blocks the flow of blood and oxygen to the brain. When the brain does not receive blood it can result in death, but not every time. For stroke survivors, while escaping death they may still live with complications (from the loss of blood to the brain) such as memory loss, speech impairment, eating disabilities, and/or loss of normal bodily functions  ([source](https://www.hopkinsmedicine.org/health/conditions-and-diseases/stroke/effects-of-stroke)).
+According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. It is the #1 leading cause of death in America ([source](https://www.cdc.gov/stroke/index.htm#:~:text=Stroke%20is%20a%20leading%20cause,of%20serious%20disability%20for%20adults.&text=About%20795%2C000%20people%20in%20the%20United%20States%20have%20a%20stroke%20each%20year.&text=Get%20more%20quick%20facts%20about,Stroke%20is%20preventable)).
+This is clearly a glaring health issue that humans currently face. What exactly is a stroke? It is a blood clot that blocks the flow of blood and oxygen to the brain. When the brain does not receive blood it can result in death, but not every time. For stroke survivors, while escaping death, they may still live with other complications (from the loss of blood to the brain) such as memory loss, speech impairment, eating disabilities, and/or loss of normal bodily functions  ([source](https://www.hopkinsmedicine.org/health/conditions-and-diseases/stroke/effects-of-stroke)).
 
 There are many known risk factors of strokes, as indictaced in the below image.([source](https://www.yashodahospitals.com/blog/brain-stroke-and-treatments-symptoms-causes-treatment/))
 ![Risk Factors of Stroke](./images/the-risk-factors-of-stroke.jpeg) 
@@ -52,6 +52,8 @@ Quite a few decent models resulted from testing.
 - Decision Tree
 - Extremely Randomized Trees (ExtraTrees)
 - Random Forest Classifier
+
+![Risk Factors of Stroke](./images/Screen Shot 2021-09-21 at 9.00.45 PM.png) 
 
 **Best Model:**
 Decision Tree: Recall of 85%, Accuracy of 65%. Slightly overfit but performed best on recall. Top features included: Age (weight = 0.92), BMI, and Hypertension. All other features were ignored by the model.
