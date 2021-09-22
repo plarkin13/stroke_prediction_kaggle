@@ -1,10 +1,10 @@
 # Are you prone to a stroke?
 
 According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. It is the #1 leading cause of death in America ([source](https://www.cdc.gov/stroke/index.htm#:~:text=Stroke%20is%20a%20leading%20cause,of%20serious%20disability%20for%20adults.&text=About%20795%2C000%20people%20in%20the%20United%20States%20have%20a%20stroke%20each%20year.&text=Get%20more%20quick%20facts%20about,Stroke%20is%20preventable))
-Clearly a glaring health issue that humans currently face. What exactly is a stroke? It is a blood clot that blocks the flow of blood and oxygen to the brain. When the brain does not receive blood it can result in death, but not every time. For stroke survivors, while escaping death they may still live with complications (from the loss of blood to the brain) such as memory loss, speech impairment, eating disabilities, and/or loss of normal bodily functions  [source](https://www.hopkinsmedicine.org/health/conditions-and-diseases/stroke/effects-of-stroke).
+Clearly a glaring health issue that humans currently face. What exactly is a stroke? It is a blood clot that blocks the flow of blood and oxygen to the brain. When the brain does not receive blood it can result in death, but not every time. For stroke survivors, while escaping death they may still live with complications (from the loss of blood to the brain) such as memory loss, speech impairment, eating disabilities, and/or loss of normal bodily functions  ([source](https://www.hopkinsmedicine.org/health/conditions-and-diseases/stroke/effects-of-stroke)).
 
 There are many known risk factors of strokes, as indictaced in the below image.
-![the-risk-factors-of-stroke.jpeg](attachment:the-risk-factors-of-stroke.jpeg) [source](https://www.yashodahospitals.com/blog/brain-stroke-and-treatments-symptoms-causes-treatment/)
+![the-risk-factors-of-stroke.jpeg](attachment:the-risk-factors-of-stroke.jpeg) ([source](https://www.yashodahospitals.com/blog/brain-stroke-and-treatments-symptoms-causes-treatment/))
 Some of these factors are within a person's ability to change or at the very least be cognizant of the effects to monitor their risk for stroke. 
 
 ## Problem Statement
@@ -27,11 +27,10 @@ As health data from smartphones, smartwatches, and even tech-friendly primary ca
     Dropping Outliers: In the gender category, very few Other gender. These were dropped.
     Dummify Remaining Variables: The remaining categorical variables (marriage, residence, gender) were dummified in order to perform analysis with them.
 
-Top correlation features to stroke: age, heart disease, glucose levels, hypertension and ever been married.
-- Ever been married likely a byproduct of a multicolinearity relationship with age.
+**Top correlation features to stroke**: age, heart disease, glucose levels, hypertension and ever-been-married.
+- Ever-been-married likely a byproduct of a multicolinearity relationship with age.
 
 Data is extremely imbalanced. 0.05% of patients in data were stroke victims (248).
-
 Techniques to handle imbalances prior to modeling:
 - Oversampling 
 - Undersampling
@@ -60,7 +59,8 @@ Decision Tree: Recall of 85%, Accuracy of 65%. Slightly overfit but performed be
 ## Results and Conclusions
 *Can patients with an affinity to having a stroke, be identified with a high degree of accuracy and sensitivity?*
 **Yes!**
-Models performed above average. Most were overfit. The imbalanced classes created an uphill battle for the models. Interestingly one of the stronger correlating factors to stroke, average glucose level, was a non-factor for prediction in the best model. 
+
+Models performed above average. Most were overfit. The imbalanced classes created an uphill battle for the models. Interestingly two of the stronger correlating factors to stroke, average glucose level and hypertension, were non-factors for prediction in the best model. 
 
 *How can this help patients in stroke prevention?*
 - Age is the strongest stroke indicator. So if patients can turn back the clock they'll be fine! Realistically the model indicates that managing BMI and hypertension are a patient's best areas to keep at healthy levels in order to reduce stroke risk.
